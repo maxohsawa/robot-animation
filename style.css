@@ -24,14 +24,20 @@ h1 {
 }
 
 .head {
+  display: flex;
+  align-items: flex-end;
   width: 200px;
-  margin: 0 auto;
+
   height: 150px;
   border-radius: 200px 200px 0 0;
   margin-bottom: 10px;
 }
 
 .eyes {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
 }
 
 .head:hover {
@@ -107,13 +113,7 @@ h1 {
 .left_eye {
   /* These properties are new and you haven't encountered
 	in this course. Check out CSS Tricks to see what it does! */
-  position: relative;
-  top: 100px;
-  left: 40px;
 }
 
 .right_eye {
-  position: relative;
-  top: 100px;
-  left: 120px;
 }
